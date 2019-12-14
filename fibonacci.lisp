@@ -5,5 +5,5 @@
         1
     (+ (fibonacci(- n 1)) (fibonacci(- n 2))))))
 
-(loop for i from to 16
-      fo (format t "~D " (fibonacci i)))
+(loop for i from 1 to 16
+      do (format t "~D " (fibonacci i)))
